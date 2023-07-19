@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+/*Color Palette*/
+--main-background-color: #f6f6fe;
+--light-blue-color: #b8c0ee;
+--dark-blue-color: #04346e; 
+--light-rose-color: #f5dde5;
+--light-orange-color: #ffdfc6; 
+--light-green-color: #ecf4e5;
+
+/*Font Types*/
+--title-font-family: 'Work Sans', sans-serif;
+--main-font-family: 'Open Sans', sans-serif;
+
+/*Font Sizes*/
+--p-font-size: 1.2vw;
+--h3-font-size: 1.5vw;
+--h2-font-size: 2vw;
+--h1-font-size: 2.5vw;
+}
+
+header {
+  background-color: var(--light-blue-color);
+}
+
+main {
+  background-color: var(--light-orange-color);
+}
+
+footer {
+  background-color: var(--light-rose-color);
+}
